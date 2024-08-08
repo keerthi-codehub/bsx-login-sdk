@@ -1,0 +1,122 @@
+/* Input.css */
+
+.input-group-wrapper {
+    display: flex;
+	flex-direction: column;
+}
+
+.custom-input-container {
+    display: flex;
+    height: 48px;
+    width: 100%;
+    /* background: url('../../../global/assets/images/add.svg') no-repeat right center; */
+    background-color: #fff;
+    border: 1px solid var(--grayscale-gray-3, #d1d1d1);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  
+  .custom-input-container.errors {
+    border-color: var(--response-warning, #f44336);
+  }
+  
+  .custom-input-container.editable {
+    border: 0;
+  }
+  
+  .custom-input-container:hover {
+    border: 1px solid var(--secondary-light, #007ac2);
+  }
+  
+  .custom-input-container:focus-within {
+    border-color: var(--secondary-light, #007ac2);
+  }
+  
+  .styled-input {
+    padding: 12px 24px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: var(--secondary-default, #007ac2);
+    font-weight: 400;
+    font-family: 'Avenir LT Pro';
+  }
+  
+  .styled-input.maxedWidth {
+    padding: 16px;
+    color: #575757;
+  }
+  
+  .styled-input.editable {
+    font-size: 14px;
+    color: var(--grayscale-gray-5, #8b8b8b);
+  }
+  
+  .styled-input.disabled {
+    color: #8b8b8b;
+  }
+  
+  .styled-label {
+    position: absolute;
+    left: 16px;
+    font-weight: bold;
+    font-size: 10px;
+    color: #575757;
+  }
+  
+  .styled-label.leftIcon {
+    left: 45px;
+  }
+  
+  .error-text {
+    color: var(--response-warning, #f44336);
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .error-text.isRequired {
+    margin-top: 0;
+  }
+  
+  .required-text {
+    color: var(--grayscale-gray-4, #bdbdbd);
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  
+  .styled-error-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+/* .StyledInputContainer:focus-within .custom-label {
+	transform: translate(0, 12px) scale(0.8);
+	color: var(--grayscale-gray4, #575757);
+}
+
+.filled {
+	transform: translate(0, 12px) scale(0.8);
+	color: var(--grayscale-gray4, #575757);
+}
+
+
+
+.custom-input {
+	height: 48px;
+	padding: 24px 12px 4px 12px;
+	font-size: 14px;
+	transition: 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+	-moz-appearance: textfield;
+}
+
+.custom-input::-webkit-outer-spin-button,
+.custom-input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+} */
+  

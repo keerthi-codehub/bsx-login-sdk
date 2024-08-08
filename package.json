@@ -1,0 +1,42 @@
+{
+  "name": "bsx-login-sdk",
+  "version": "1.0.1-62",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "style": "dist/bundle.css",
+  "scripts": {
+    "build": "rollup -c && npm version --no-git-tag-version prerelease",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.22.5",
+    "@babel/preset-env": "^7.22.10",
+    "@babel/preset-react": "^7.24.7",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^9.1.3",
+    "rollup": "^4.19.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "dependencies": {
+    "puppeteer": "^22.15.0",
+    "react-hook-form": "^7.52.1"
+  }
+}
